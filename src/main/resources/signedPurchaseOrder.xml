@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder>
+    <Item number="130046593231">
+        <Description>Video Game</Description>
+        <Price>10.29</Price>
+    </Item>
+    <Buyer id="8492340">
+        <Name>My Name</Name>
+        <Address>
+            <Street>One Network Drive</Street>
+            <Town>Burlington</Town>
+            <State>MA</State>
+            <Country>United States</Country>
+            <PostalCode>01803</PostalCode>
+        </Address>
+    </Buyer>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>muObl4AVSdHjbeIfcUlrapBsIIQ=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            GmfZuEVK966V4PElDTta2jhxssSO151I2cQQ2S7BZ6SWRF/hw/2QYMJzmjC+0I/+RSub8weINFJpdf5DyHdM5Faq1HZ/fz3xdKAMm1R2CIzOrkM94pLnkNoI4TRUklmcfSIuPMWGvI2g7dTUsW0Ng3RGbFA6/n3FpXbSLzcZdpSw5PnIXQ6xenlh3Tx5H1IoN6uYCwpFIHsWP7CjIHOO2Cm1B2d2SABEoEJLBMxQHaexDEiD7VE+btirkBumltAtC78S/kEMbmcBCv+chXMYx7hRwP1aGkN4dxuFUiV0FZO1sNIc3cWTuiY64uAqGp0lepIo7u1ItCfQvz7nStjAiOaiEs7XmmBukAwPeU1Ny6DKeGl926N3nxlvQhlxBIfRPxvMHSUNIfR+7GiOpelstnkT++tcbTddOi8h/L9b4aPU9W/LkUkRH24OEorGM15gWRlSr9gPi5yW8v9YyYeunRGC+4kwK+dC7J/nFMuZz/3TjHKHBpXrvHXKW02u0OjJ39I42a0pRgkHzgsqLRSEVUq3czWZ89giyShcXzipEpBXDxIQBnFRpfpPEaiZ40J5aOcQM2vAbJPyau9YueMFGDU1rGS0L6J1EVDF3ymY9rlGX4yVA1qyxPXqzf3ada1lOUfqgW21OUv1GBl6lcbTyhp300klCrzwNHFbTYVwu24=
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509SubjectName>CN=arun kalyan,OU=local,O=global,L=hyd,ST=ts,C=in</X509SubjectName>
+                <X509IssuerSerial>
+                    <X509IssuerName>CN=arun kalyan,OU=local,O=global,L=hyd,ST=ts,C=in</X509IssuerName>
+                    <X509SerialNumber>42192030</X509SerialNumber>
+                </X509IssuerSerial>
+                <X509Certificate>
+                    MIIFXTCCA0WgAwIBAgIEAoPMnjANBgkqhkiG9w0BAQwFADBfMQswCQYDVQQGEwJpbjELMAkGA1UECBMCdHMxDDAKBgNVBAcTA2h5ZDEPMA0GA1UEChMGZ2xvYmFsMQ4wDAYDVQQLEwVsb2NhbDEUMBIGA1UEAxMLYXJ1biBrYWx5YW4wHhcNMjIwNjE5MTUyMDM4WhcNMjIwOTE3MTUyMDM4WjBfMQswCQYDVQQGEwJpbjELMAkGA1UECBMCdHMxDDAKBgNVBAcTA2h5ZDEPMA0GA1UEChMGZ2xvYmFsMQ4wDAYDVQQLEwVsb2NhbDEUMBIGA1UEAxMLYXJ1biBrYWx5YW4wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCciwCaL47tIEwbELBzPevfUnDjxfrA5sUvddaMcojFRNxgS0B01jzPVgUw7dw841eI7oCym7I13BerWD5CULBhaqRpHC4LsYqdYw0GooiMI/9sxVqEXU8aWDf5ncg6u9JXs5bpostXeSCgQs6bDa1aK5tdFtCvFGXfMRve67qNeLr/WzEt5+kDROz9HGo2kE3JGxogY4mniBPAsA9AQTRTOpOAMXL8i6o8w4YZYtCsEwi3D4ZeM548SADA7IYIB6x6Vpm35902Ic1ortsjIOKoUXbymq9eQ29aeADwi+9Md6fr+Oy3xSUs33FGRyghzZhRpVWmyKy23jlbfMdL5IuIFY2wJ8aoqJnHEMKzDQ2OGKBvWrep1u07mJwRyQbqvgBfWf95rJ2/dL/JNqWHW9Lctqa29+rhQIFX8OLw42B6CZd9nZEaih2YpUhD7yC07AWovecG22urPrlr4eqzBZzFbZ8Ofp8ynJXVG/1nfnPgEeG74SzA69bSToMLmLgMKRz9AuC8xvRw93QBA7ao7zMGC0wMPXg0Q6+hpvCd4Vxcd8Zgs2wwIH2clNoFulBa72KzwACMRdLq+Ckr3bSPn79izYsCs05zg8SKIbHjGPG6shB0gFxWAX56u33t2TAzAMgnB6i2qth+TmwfWu8CyGU0sK9u0eqFRldWvCqremJCfwIDAQABoyEwHzAdBgNVHQ4EFgQU6eU3uQETjpJDSkkL3NNrSieOJ7gwDQYJKoZIhvcNAQEMBQADggIBAJaE+TCfq+xlWYUZHjx/enubmQiKkqlaiYdYA5ANLHT14XME1pmZ36O/t+qrvY6yFQTYzaE7kzi0G7cVcWrWyknRNnDKtsX7HSZkSJfqaIVz/poz/ntHKVEuLLsKBd0YCE8jaezIpaGFQ3VD4MR1QCod8D3MkgCeGuTo5kAEdSnB1bw2nIVJBAqE5Mfr61tjY7rqun9h6BMavO0P9dRSNuv9amr8V/K/YIx+AkmApNS93XzhDT7tzLBzErEmnRAL1HCTrVdOhUcN3DJrLRIaD69L/BIZ5L+/pxO9iMIT3j21RAo1Wg2VxeyXFoGe5sSkHbcpnQbHgMitaCyV2T6l0m79KLE4aHoLzYnU30bbjGf+S1xbv/y+z6zDrk1Eg6Shg8Yu66gnRwh5XMLgB9Cf/XSvUg7Kurfv/XGD6s6Uc6EWNFoULO0Slo5P7iPXY3KPDUjLyCRAINb30z5kId4OejgYvu7w8hzzdlmNhpM4p8ZnuUq3MWybTljpksak447TrBq7aB3gT+PnhOtOkcqjBH2iXfzv1cvYS13DZmqnyuLJv6Zq07ukyrstaPE4fLEv7y0dkY+EsJnKdLNzEYE55xhO1O3yZxvgX7l6CoDmhkHE0UcYe7Sas23mjxHxrc3NGprBVIfwDKR2GQ5d9X7pavnfYULCjGVrkGt+7ktidfsM
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</PurchaseOrder>

@@ -1,0 +1,82 @@
+<soap:Envelope xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance">
+    <soap:Header>
+        <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:SignedInfo>
+                <ds:CanonicalizationMethod
+                        Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+                <ds:Reference URI="">
+                    <ds:Transforms>
+                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
+                    </ds:Transforms>
+                    <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+                    <ds:DigestValue>z7Wb08e2oNp+4LakR8CgQ33G/Uo=</ds:DigestValue>
+                </ds:Reference>
+            </ds:SignedInfo>
+            <ds:SignatureValue>
+                NwItB6nUavG9X6EalYjxNKKOQ+kcfiYART+3yfA/dMYNNiJqPEB24VmRxJ33a+vQRkAYDArywpfu
+                AHxRzlubkxMn5Z6KXCcLqBDs9rf07iR9i7CzM5Yl3ypIRsX5zuFZPQTI8n4tJfdErZHN1FiQMSRw
+                ci7B7VeiHascu2t4QhPrLc1q3xKAvOrepqMsKouMpz72eN5TjiFrV5B1qFczTwPCNex/jIpwzp8y
+                kKRK2Xbe6s2oxc22TTP/OwEMGMLueyJOlgnAYWWvD3udbSn/2szOx7aGkFkaeQwkmCiH0oW961U/
+                ro1EFhPP9oLkw/8PP/BKl7Kb+Aff/RGSqQyigkcjFwTsSIaWrnk88ZVZsWodBqS67oWp4RCGrAUn
+                auDjdIXr80A5DY93p7qiPt51NGb/TPykah3CpfQTFcw2VtjCtoJcxUDn6s1eD3UXGC9jopyNdm/U
+                2008F4SKHXxle0XypLRsJdKgK9HPwvMEwF3+9Vwv1YBiz+F6qu1goA6hbGzGQd5pilO5Esbbkdtr
+                urAWXDAyAu7uv6eeNOL1BjrHSD4Pn9oHpYE0d4hDFrIG0Eg3MQY+Snr/O2QMM+cBPipTcWWonNbj
+                zuqVo7p/B5PZvrI+ByvfDKBhfyFHa/yFuidxtymVyEtbTWhcQtHyyOGOjTBcOkneVtPXRvVoVT8=
+            </ds:SignatureValue>
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFXTCCA0WgAwIBAgIEAoPMnjANBgkqhkiG9w0BAQwFADBfMQswCQYDVQQGEwJpbjELMAkGA1UE
+                        CBMCdHMxDDAKBgNVBAcTA2h5ZDEPMA0GA1UEChMGZ2xvYmFsMQ4wDAYDVQQLEwVsb2NhbDEUMBIG
+                        A1UEAxMLYXJ1biBrYWx5YW4wHhcNMjIwNjE5MTUyMDM4WhcNMjIwOTE3MTUyMDM4WjBfMQswCQYD
+                        VQQGEwJpbjELMAkGA1UECBMCdHMxDDAKBgNVBAcTA2h5ZDEPMA0GA1UEChMGZ2xvYmFsMQ4wDAYD
+                        VQQLEwVsb2NhbDEUMBIGA1UEAxMLYXJ1biBrYWx5YW4wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAw
+                        ggIKAoICAQCciwCaL47tIEwbELBzPevfUnDjxfrA5sUvddaMcojFRNxgS0B01jzPVgUw7dw841eI
+                        7oCym7I13BerWD5CULBhaqRpHC4LsYqdYw0GooiMI/9sxVqEXU8aWDf5ncg6u9JXs5bpostXeSCg
+                        Qs6bDa1aK5tdFtCvFGXfMRve67qNeLr/WzEt5+kDROz9HGo2kE3JGxogY4mniBPAsA9AQTRTOpOA
+                        MXL8i6o8w4YZYtCsEwi3D4ZeM548SADA7IYIB6x6Vpm35902Ic1ortsjIOKoUXbymq9eQ29aeADw
+                        i+9Md6fr+Oy3xSUs33FGRyghzZhRpVWmyKy23jlbfMdL5IuIFY2wJ8aoqJnHEMKzDQ2OGKBvWrep
+                        1u07mJwRyQbqvgBfWf95rJ2/dL/JNqWHW9Lctqa29+rhQIFX8OLw42B6CZd9nZEaih2YpUhD7yC0
+                        7AWovecG22urPrlr4eqzBZzFbZ8Ofp8ynJXVG/1nfnPgEeG74SzA69bSToMLmLgMKRz9AuC8xvRw
+                        93QBA7ao7zMGC0wMPXg0Q6+hpvCd4Vxcd8Zgs2wwIH2clNoFulBa72KzwACMRdLq+Ckr3bSPn79i
+                        zYsCs05zg8SKIbHjGPG6shB0gFxWAX56u33t2TAzAMgnB6i2qth+TmwfWu8CyGU0sK9u0eqFRldW
+                        vCqremJCfwIDAQABoyEwHzAdBgNVHQ4EFgQU6eU3uQETjpJDSkkL3NNrSieOJ7gwDQYJKoZIhvcN
+                        AQEMBQADggIBAJaE+TCfq+xlWYUZHjx/enubmQiKkqlaiYdYA5ANLHT14XME1pmZ36O/t+qrvY6y
+                        FQTYzaE7kzi0G7cVcWrWyknRNnDKtsX7HSZkSJfqaIVz/poz/ntHKVEuLLsKBd0YCE8jaezIpaGF
+                        Q3VD4MR1QCod8D3MkgCeGuTo5kAEdSnB1bw2nIVJBAqE5Mfr61tjY7rqun9h6BMavO0P9dRSNuv9
+                        amr8V/K/YIx+AkmApNS93XzhDT7tzLBzErEmnRAL1HCTrVdOhUcN3DJrLRIaD69L/BIZ5L+/pxO9
+                        iMIT3j21RAo1Wg2VxeyXFoGe5sSkHbcpnQbHgMitaCyV2T6l0m79KLE4aHoLzYnU30bbjGf+S1xb
+                        v/y+z6zDrk1Eg6Shg8Yu66gnRwh5XMLgB9Cf/XSvUg7Kurfv/XGD6s6Uc6EWNFoULO0Slo5P7iPX
+                        Y3KPDUjLyCRAINb30z5kId4OejgYvu7w8hzzdlmNhpM4p8ZnuUq3MWybTljpksak447TrBq7aB3g
+                        T+PnhOtOkcqjBH2iXfzv1cvYS13DZmqnyuLJv6Zq07ukyrstaPE4fLEv7y0dkY+EsJnKdLNzEYE5
+                        5xhO1O3yZxvgX7l6CoDmhkHE0UcYe7Sas23mjxHxrc3NGprBVIfwDKR2GQ5d9X7pavnfYULCjGVr
+                        kGt+7ktidfsM
+                    </ds:X509Certificate>
+                </ds:X509Data>
+                <ds:KeyValue>
+                    <ds:RSAKeyValue>
+                        <ds:Modulus>
+                            nIsAmi+O7SBMGxCwcz3r31Jw48X6wObFL3XWjHKIxUTcYEtAdNY8z1YFMO3cPONXiO6AspuyNdwX
+                            q1g+QlCwYWqkaRwuC7GKnWMNBqKIjCP/bMVahF1PGlg3+Z3IOrvSV7OW6aLLV3kgoELOmw2tWiub
+                            XRbQrxRl3zEb3uu6jXi6/1sxLefpA0Ts/RxqNpBNyRsaIGOJp4gTwLAPQEE0UzqTgDFy/IuqPMOG
+                            GWLQrBMItw+GXjOePEgAwOyGCAeselaZt+fdNiHNaK7bIyDiqFF28pqvXkNvWngA8IvvTHen6/js
+                            t8UlLN9xRkcoIc2YUaVVpsistt45W3zHS+SLiBWNsCfGqKiZxxDCsw0Njhigb1q3qdbtO5icEckG
+                            6r4AX1n/eaydv3S/yTalh1vS3Lamtvfq4UCBV/Di8ONgegmXfZ2RGoodmKVIQ+8gtOwFqL3nBttr
+                            qz65a+HqswWcxW2fDn6fMpyV1Rv9Z35z4BHhu+EswOvW0k6DC5i4DCkc/QLgvMb0cPd0AQO2qO8z
+                            BgtMDD14NEOvoabwneFcXHfGYLNsMCB9nJTaBbpQWu9is8AAjEXS6vgpK920j5+/Ys2LArNOc4PE
+                            iiGx4xjxurIQdIBcVgF+ert97dkwMwDIJweotqrYfk5sH1rvAshlNLCvbtHqhUZXVrwqq3piQn8=
+                        </ds:Modulus>
+                        <ds:Exponent>AQAB</ds:Exponent>
+                    </ds:RSAKeyValue>
+                </ds:KeyValue>
+            </ds:KeyInfo>
+        </ds:Signature>
+    </soap:Header>
+    <soap:Body>
+        <soap:GetPriceResponse xmlns:soap="http://www.w3.org/2003/05/soap-envelope/">
+            <soap:Price>1.90</soap:Price>
+        </soap:GetPriceResponse>
+    </soap:Body>
+</soap:Envelope>
